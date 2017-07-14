@@ -1,0 +1,36 @@
+body {
+    margin: -14px;
+    margin-left: -38px;
+    margin-right: 0px;
+
+}
+#menu{
+    display:none;
+}
+#btnMenu{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    float: right;
+    margin: 27px;
+}
+.mList{
+    display: inline-block;
+    background-color: #DFD0C2;
+    height: 300px;
+    width: 635px;
+    margin: -2px;
+}
+.mList:hover{
+    background-color: #D1C4B6;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 35px;
+
+}
