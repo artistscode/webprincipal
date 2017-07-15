@@ -1,7 +1,6 @@
 body {
-    margin: -14px;
-    margin-left: -38px;
-    margin-right: 0px;
+    margin-top:-1.03%;
+    margin-left:-2.5%
 
 }
 #menu{
@@ -11,16 +10,18 @@ body {
     height: 50px;
     width: 50px;
     background-color: red;
-    position: relative;
-    float: right;
-    margin: 27px;
+    position: fixed;
+    margin-left:95%;
+    margin-top:1%
 }
 .mList{
     display: inline-block;
     background-color: #DFD0C2;
     height: 300px;
-    width: 635px;
+    width: 33%;
     margin: -2px;
+    min-width: 400px;
+    text-align: center;
 }
 .mList:hover{
     background-color: #D1C4B6;

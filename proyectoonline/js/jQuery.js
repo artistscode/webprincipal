@@ -2,6 +2,6 @@
 
 $(document).ready(function () {
     $("#btnMenu").click(function () {
-        $("#menu").slideDown("slow");
+        $("#menu").slideToggle("slow");
     });
 });
