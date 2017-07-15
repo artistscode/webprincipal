@@ -1,0 +1,18 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.cerca{
+    background-color: red;
+}
+
+.medio{
+    background-color: orange;
+}
+
+.lejos{
+    background-color: yellow;
+}
+
