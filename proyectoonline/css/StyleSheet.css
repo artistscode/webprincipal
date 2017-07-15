@@ -6,6 +6,7 @@ body {
 #menu{
     display:none;
 }
+/*Estilos Boton para abrir menu*/
 #btnMenu{
     height: 50px;
     width: 50px;
@@ -14,6 +15,7 @@ body {
     margin-left:95%;
     margin-top:1%
 }
+/*Estilos del mune */
 .mList{
     display: inline-block;
     background-color: #DFD0C2;
@@ -23,9 +25,11 @@ body {
     min-width: 400px;
     text-align: center;
 }
+/*Cuando pasa el raton cambia de color*/
 .mList:hover{
     background-color: #D1C4B6;
 }
+/*Esto alinea el texto en el centro del cuadrado*/
 a {
     text-decoration: none;
     color: black;
