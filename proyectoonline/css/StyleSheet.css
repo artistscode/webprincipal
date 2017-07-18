@@ -5,6 +5,7 @@ body {
 }
 #menu{
     display:none;
+    margin-bottom: -14px;
 }
 /*Estilos Boton para abrir menu*/
 #btnMenu{
