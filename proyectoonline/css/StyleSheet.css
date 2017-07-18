@@ -15,7 +15,8 @@
     background-color: red;
     position: fixed;
     margin-left:95%;
-    margin-top:1%
+    margin-top:1%;
+    z-index: 1000;
 }
 /*Estilos del mune */
 .mList{
@@ -48,6 +49,7 @@ a {
     position: fixed;
     margin-left: 2%;
     margin-top: 12%;
+    z-index: 1000;
 }
 #btnRight{
     height: 50px;
@@ -56,10 +58,12 @@ a {
     position: fixed;
     margin-left: 94%;
     margin-top: 12%;
+    z-index: 1000;
 }
 #sldSize{
     width: 300%;
-    margin-left: -100%;
+    position: relative;
+    left:-100%;
 }
 .sldStyle{
     display: inline-block;
