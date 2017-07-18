@@ -59,6 +59,7 @@ a {
 }
 #sldSize{
     width: 300%;
+    margin-left: -100%;
 }
 .sldStyle{
     display: inline-block;
