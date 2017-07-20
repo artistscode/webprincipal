@@ -70,6 +70,7 @@ a {
     width: 33.26%;
     height: 400px;
     background-color: yellow;
+    float:left;
 }
 #cntSlide{
     background-color: transparent;
