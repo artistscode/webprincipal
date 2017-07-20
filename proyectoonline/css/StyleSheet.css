@@ -5,13 +5,12 @@
 #menu{
     display:none;
     width: 100%;
-    height: 300px;
     margin-bottom: 0%;
 }
 #cntMenu{
     width: 100%;
-    z-index: 1000;
-    position: relative;
+    z-index: 1001;
+    position: absolute;
 }
 /*Estilos Boton para abrir menu*/
 #btnMenu{
@@ -64,6 +63,9 @@ a {
     margin-left: 94%;
     margin-top: 12%;
     z-index: 1000;
+}
+.sldSizeNone{
+    display: none;
 }
 #sldSize{
     width: 300%;

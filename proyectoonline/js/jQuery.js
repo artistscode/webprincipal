@@ -4,6 +4,7 @@ var pos=0;
 $(document).ready(function () {
     $("#btnMenu").click(function () {
         $("#menu").slideToggle("slow");
+        $("#sldSize, #btnRight, #btnLeft").toggleClass("sldSizeNone");
     });
     $("#btnRight").click(function () {
         //Compruebo que la posición de la foto que se muestra no sea la primera
