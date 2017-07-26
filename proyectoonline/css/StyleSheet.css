@@ -1,41 +1,90 @@
-body {
-    margin-top:-1.03%;
-    margin-left:-2.5%
-
+*{
+    margin: 0%;
+    padding: 0%;
 }
 #menu{
     display:none;
+    width: 100%;
+    margin-bottom: 0%;
+}
+#cntMenu{
+    width: 100%;
+    z-index: 1001;
+    position: absolute;
 }
 /*Estilos Boton para abrir menu*/
 #btnMenu{
     height: 50px;
     width: 50px;
-    background-color: red;
+    background-image: url(../image/iconMenu.png);
     position: fixed;
     margin-left:95%;
-    margin-top:1%
+    margin-top:1%;
+    z-index: 1100;
 }
-/*Estilos del mune */
+/* son divs para contener las imganenes cuando haga over*/
+#bcgColor1, #bcgColor2,#bcgColor3 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-repeat: round;
+}
+/*Estilos del menu */
 .mList{
     display: inline-block;
     background-color: #DFD0C2;
     height: 300px;
-    width: 33%;
+    width: 33.33%;
     margin: -2px;
     min-width: 400px;
     text-align: center;
 }
 /*Cuando pasa el raton cambia de color*/
-.mList:hover{
-    background-color: #D1C4B6;
-}
+
 /*Esto alinea el texto en el centro del cuadrado*/
-a {
-    text-decoration: none;
+.txtAlineado{
     color: black;
     display: flex;
     justify-content: center;
     margin-top: 120px;
     font-size: 35px;
-
+   
+}
+#btnLeft{
+    height: 50px;
+    width: 50px;
+    background-image: url(../image/iconSlideI.png);
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 12%;
+    z-index: 1000;
+}
+#btnRight{
+    height: 50px;
+    width: 50px;
+    background-image: url(../image/iconSlideD.png);
+    position: fixed;
+    margin-left: 94%;
+    margin-top: 12%;
+    z-index: 1000;
+}
+.sldSizeNone{
+    display: none;
+}
+#sldSize{
+    width: 300%;
+    position: relative;
+    left:-100%;
+}
+.sldStyle{
+    display: inline-block;
+    width: 33.33%;
+    height: 400px;
+    background-color: yellow;
+    float:left;
+}
+#cntSlide{
+    background-color: transparent;
+    width: 100%;
+    overflow: hidden;
 }
